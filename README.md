@@ -1,4 +1,4 @@
-# nuxt-custom-auth for type: SSR
+# nuxt-custom-auth for type: SPA
 
 ## Build Setup
 

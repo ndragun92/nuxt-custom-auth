@@ -34,7 +34,9 @@
             </div>
           </template>
         </div>
-        <button type="submit">{{ loading ? 'Loading...' : 'Login' }}</button>
+        <button type="submit" :disabled="loading">
+          {{ loading ? 'Loading...' : 'Login' }}
+        </button>
       </form>
     </div>
   </div>

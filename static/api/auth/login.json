@@ -1,0 +1,13 @@
+{
+  "data": {
+    "token": {
+      "type": "Bearer",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwiZmlyc3ROYW1lIjoiTmVtYW5qYSIsImxhc3ROYW1lIjoiRHJhZ3VuIiwidXNlcm5hbWUiOiJudXh0LWN1c3RvbS1hdXRoIiwiaWF0IjoxNTE2MjM5MDIyfQ.jCUzulIfLEhHNLZk_pPUmH3M_hb5_Pv_ogMF1wnLR18"
+    },
+    "user": {
+      "firstName": "Nemanja",
+      "lastName": "Dragun",
+      "username": "nuxt-custom-auth"
+    }
+  }
+}

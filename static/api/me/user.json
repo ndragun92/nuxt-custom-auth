@@ -1,0 +1,9 @@
+{
+  "data": {
+    "user": {
+      "firstName": "Nemanja",
+      "lastName": "Dragun",
+      "username": "nuxt-custom-auth"
+    }
+  }
+}

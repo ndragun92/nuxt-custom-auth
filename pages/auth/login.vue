@@ -34,7 +34,7 @@
             </div>
           </template>
         </div>
-        <button type="submit">Login</button>
+        <button type="submit">{{ loading ? 'Loading...' : 'Login' }}</button>
       </form>
     </div>
   </div>

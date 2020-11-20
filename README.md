@@ -1,4 +1,4 @@
-# nuxt-custom-auth
+# nuxt-custom-auth for type: SSR
 
 ## Build Setup
 
@@ -6,7 +6,7 @@
 # install dependencies
 $ npm install
 
-# serve with hot reload at localhost:3000
+# serve with hot reload at localhost:3020
 $ npm run dev
 
 # build for production and launch server

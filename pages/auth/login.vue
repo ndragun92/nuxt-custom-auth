@@ -38,6 +38,10 @@
           {{ loading ? 'Loading...' : 'Login' }}
         </button>
       </form>
+      <div style="text-align: left; margin-top: 10px">
+        <div>Demo email: admin@gmail.com</div>
+        <div>Demo password: 12345678</div>
+      </div>
     </div>
   </div>
 </template>
@@ -47,10 +51,9 @@ import { required, email } from 'vuelidate/lib/validators'
 export default {
   middleware: 'protected',
   data: () => ({
-    // This is just example prefilled values so never fill this data initially
     form: {
-      email: 'admin@gmail.com',
-      password: '12345678',
+      email: '',
+      password: '',
     },
     loading: false,
     errors: false,

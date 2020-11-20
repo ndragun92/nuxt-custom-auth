@@ -5,8 +5,8 @@ export const getters = {}
 export const mutations = {}
 
 export const actions = {
-  async nuxtServerInit(store) {
-    const token = this.$cookies.get('token')
+  async nuxtClientInit(store) {
+    const token = localStorage.getItem('token')
     if (token) {
       try {
         const { data } = await this.$axios.$get('/api/me/user.json')

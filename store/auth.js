@@ -8,10 +8,7 @@ export const getters = {}
 export const mutations = {
   SET_TOKEN(state, token) {
     state.token = token
-    this.$cookies.set('token', state.token, {
-      path: '/',
-      maxAge: 60 * 60 * 24 * 300,
-    })
+    localStorage.setItem('token', state.token)
   },
   SET_USER(state, user) {
     state.user = user
@@ -19,7 +16,7 @@ export const mutations = {
   LOGOUT(state) {
     state.token = null
     state.user = null
-    this.$cookies.remove('token')
+    localStorage.removeItem('token')
   },
 }
 

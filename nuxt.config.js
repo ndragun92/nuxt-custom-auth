@@ -3,7 +3,7 @@ export default {
    ** Nuxt rendering mode
    ** See https://nuxtjs.org/api/configuration-mode
    */
-  ssr: true,
+  ssr: false,
   /*
    ** Nuxt target
    ** See https://nuxtjs.org/api/configuration-target
@@ -35,6 +35,7 @@ export default {
    ** https://nuxtjs.org/guide/plugins
    */
   plugins: [
+    { src: '@/plugins/nuxt-client-init.js' },
     { src: '@/plugins/axios.js' },
     { src: '@/plugins/vuelidate.js' },
     { src: '@/plugins/global-mixins.js' },
